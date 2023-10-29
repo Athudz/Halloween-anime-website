@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-image: url(z4783351444471_5891b8e2c27807f492fc149c73dee1c3.jpg);
+   
+}
+
+.web{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  
+}
+/*navbar  */
+.web-navbar{
+    width: 100%;
+    height: 8%;
+    background-color:rgb(38, 38, 38);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+  
+}
+.nav-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left:30px ;
+    color: cadetblue;
+}
+.nav-logo h2{
+    color: white;
+}
+.nav-search {
+ width: 50%;
+ height: 100%;
+
+ display: flex;
+ align-items: center;
+}
+.search-content{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(81, 81, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    border-radius:10px ;
+}
+.search-content input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(81, 81, 81);
+    color: rgb(188, 188, 188);
+}
+.fa-solid fa-magnifying-glass{
+  margin-right: 15px;
+    
+}
+.nav-sign{
+    width:30% ;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav-sign h1{
+    margin-right: 30px;
+    color: white;
+   
+}
+/* navbar */
+/* content */
+/* menu */
+.web-content{
+    width: 100%;
+    height: 96%;
+    display: flex;
+    padding-top: 60px;
+    position: relative;
+    justify-content: end;
+}
+.content-menu {
+    width: 10%;
+    height: 100%;
+    background-color: aliceblue;
+    padding: 10px 7px 10px 7px;
+    left: 0;
+    position: fixed;
+    
+}
+.menu-box {
+    width: 100%;
+    height: 8% ;
+    font-size: 22px;
+    margin-top: 8px;
+    display:flex ;
+    text-decoration:none;
+    align-items: center;
+    color: black;
+
+}
+.menu-box i{
+    margin-left: 10px;
+}
+.menu-box h5{
+    margin-left: 5px;
+}
+/* scontent */
+.content{
+    width: 90%;
+    height: 100%;
+    display: flex;
+}
+.cnt-title{
+    width: 45%;
+    height: 3%;
+    
+
+}
+/* scontent */
+
+
+/* main */
+/* main */
+.main-content{
+    width: 90%;
+    height: auto;
+    
+}
+.content-title{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.title-img{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 4%;
+    top: 0%;
+
+}
+.up{
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.down{
+    font-size: 23px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
+.big-box1{
+    width: 100%;
+    height: 80vh;
+ 
+   position: relative;
+
+}
+.box1{
+    width: 700px;
+    height: 700px;
+   
+    position:absolute;
+    right: 15%;
+    top: 7%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1-title
+{
+    width: 100%;
+    height: 30%;
+    position: relative;
+}
+.box1-title H2{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 0%;
+}
+.box1-img {
+    width: 100%;
+    height: 70%;
+    position: relative;
+   
+}
+
+.bg-img1{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    right: 0%;
+   bottom: 0%;
+}
+.main-img1{
+    position: absolute;
+    right: 1%;
+   bottom: 0%;
+   z-index: 990;
+   width: 88%;
+   height: 100%;
+   transition-duration: 1s;
+   
+    transform-origin: right bottom;
+}
+.main-img1:hover{
+    transform: scale(1.15, 1.15);
+    
+}
+
+.big-box2{
+    width: 100%;
+    height: 100vh;
+  
+   position: relative;
+
+}
+.box2 {
+
+    width: 700px;
+    height: 700px;
+   
+    position:absolute;
+    left: 10%;
+    top: 7%;
+}
+.box2-title
+{
+    width: 100%;
+    height: 30%;
+    position: relative;
+
+}
+.box2-title H2{
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+}
+.box2-img {
+    width: 100%;
+    height: 70%;
+    position: relative;
+   
+}
+
+.bg-img2{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+   bottom: 0%;
+}
+.main-img2{
+    position: absolute;
+    left: 2%;
+   bottom: 0%;
+   z-index: 990;
+   width: 88%;
+   height: 100%;
+   transition-duration: 1s;
+   
+    transform-origin: left bottom;
+}
+.main-img2:hover{
+    transform: scale(1.15, 1.15);
+    
+}

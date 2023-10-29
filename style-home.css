@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+}
+.container{
+    width: 100%;
+    height: 430vh;
+    background-color: rgb(38, 38, 38);
+   
+}
+
+.web{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  
+}
+/*navbar  */
+.web-navbar{
+    width: 100%;
+    height: 8%;
+    background-color:rgb(38, 38, 38);
+    display: flex;
+    align-items: center;
+    position: fixed;
+  
+}
+.nav-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left:30px ;
+    color: cadetblue;
+}
+.nav-logo h2{
+    color: white;
+}
+.nav-search {
+ width: 50%;
+ height: 100%;
+
+ display: flex;
+ align-items: center;
+}
+.search-content{
+    width: 100%;
+    height: 50%;
+    background-color:rgb(81, 81, 81);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    border-radius:10px ;
+}
+.search-content input {
+    width: 80%;
+    height: 100%;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(81, 81, 81);
+    color: rgb(188, 188, 188);
+}
+.fa-solid fa-magnifying-glass{
+  margin-right: 15px;
+    
+}
+.nav-sign{
+    width:30% ;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.nav-sign h1{
+    margin-right: 30px;
+    color: white;
+   
+}
+/* navbar */
+/* content */
+/* menu */
+.web-content{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.content-menu {
+    width: 10%;
+    height: 100%;
+    background-color: aliceblue;
+    padding: 10px 7px 10px 7px;
+  
+    position: fixed;
+    
+}
+.menu-box {
+    width: 100%;
+    height: 8% ;
+    font-size: 22px;
+    margin-top: 8px;
+    display:flex ;
+    text-decoration:none;
+    align-items: center;
+    color: black;
+}
+.menu-box i{
+    margin-left: 10px;
+}
+.menu-box h5{
+    margin-left: 5px;
+}
+/* scontent */
+.content{
+    width: 78%;
+    height: 98%;
+    border-radius: 18px;
+    background-color: rgb(32, 59, 60);
+    margin: auto;
+    padding: 20px 20px;
+    margin-top: 0px;
+}
+.slides-contain{
+    width: 100%;
+    height: 17%;
+   
+   
+    
+}
+.slide-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.slides-title{
+    width: 100%;
+    height: 15%;
+    
+    display: flex;
+    align-items: center;
+   padding-left: 5px;
+}
+.slides-title h4{
+    color: white;
+    margin-left: 5px;
+}
+.b-slides{
+    width: 100%;
+    height: 95%;
+    
+    border-radius: 15px;
+}
+.anime-hot-contain{
+    width: 100%;
+    height: 10%;
+   
+    margin-top: 80px;
+}
+.ah-title{
+    width: 100%;
+    height: 15%;
+    
+    
+    display: flex;
+    align-items: center;
+   padding-left: 5px;
+
+}
+.ah-title h4{
+    color: white;
+    margin-left: 5px;
+}
+.ah-b-box{
+    width: 100%;
+    height: 90%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ah-box{
+    width: 15%;
+    height: 90%;
+   
+    border-radius: 15px;
+   
+}
+.ah-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.newanime-contain{
+    width: 100%;
+    height: 30%;
+ 
+    margin-top: 80px;
+}
+.na-title{
+    width: 100%;
+    height: 7%;
+  
+    
+    display: flex;
+    align-items: center;
+   padding-left: 5px;
+
+}
+.na-title h4{
+    color: white;
+    margin-left: 5px;
+}
+.na-b-box{
+    width: 100%;
+    height:auto;
+ 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.na-box{
+    width: 18%;
+    height: 250px;
+    
+    border-radius: 15px;
+   
+}
+.na-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.animemovie-contain{
+    width: 100%;
+    height: 30%;
+ 
+    margin-top: 80px;
+
+}
+.am-title{
+    width: 100%;
+    height: 7%;
+   
+    
+    display: flex;
+    align-items: center;
+   padding-left: 5px;
+
+}
+.am-title h4{
+    color: white;
+    margin-left: 5px;
+}
+.am-b-box{
+    width: 100%;
+    height:auto;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.am-box{
+    width: 18%;
+    height: 250px;
+  
+    border-radius: 15px;
+}
+.am-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+/* scontent */
+/* footer */
+.footer{
+    width: 70%;
+    height: 0;
+    padding-top:20px ;
+   display: flex;
+   flex-wrap: wrap;
+    margin: auto;
+    color: cadetblue ;
+}
+/* footer */
+.big-item{
+    width: 100%;
+    display: flex;
+    
+
+}
+.item2 {
+    margin-left: 50px;
+}
+.footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  .footer ul a {
+    color:white ;
+    text-decoration:none;
+    
+  }
+  .item-text{
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  .item-text p{
+    color: white;
+  }
+  .row i{
+    color: white;
+    margin-left: 20px;
+  }
